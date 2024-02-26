@@ -1,0 +1,24 @@
+Agenda:
+1. Introduction to Power BI
+Desktop
+Server
+View in Mobile
+2. Business Analytics/Data Analytics
+Data - 
+Structured Data
+using database SQL
+Un-structured Data
+Data - image,sound,multimedia
+sensor - iot
+website
+log file
+
+https://www.geeksforgeeks.org/difference-between-structured-semi-structured-and-unstructured-data/
+
+Tableau (SalesForce) vs Power BI(Microsoft)
+
+
+3. Visualization
+4. Reports/Dashboard
+5. Data Sources
+https://www.forbesindia.com/article/explainers/top-10-largest-economies-in-the-world/86159/1
