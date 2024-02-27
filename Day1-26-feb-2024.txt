@@ -22,3 +22,15 @@ Tableau (SalesForce) vs Power BI(Microsoft)
 4. Reports/Dashboard
 5. Data Sources
 https://www.forbesindia.com/article/explainers/top-10-largest-economies-in-the-world/86159/1
+
+https://dev.mysql.com/downloads/mysql/
+
+CREATE TABLE `powerbidemo`.`asiangamesmedals` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `country` VARCHAR(100) NOT NULL,
+  `total` INT NOT NULL,
+  `gold` INT NOT NULL,
+  `silver` INT NOT NULL,
+  `bronze` INT NOT NULL,
+  PRIMARY KEY (`id`));
+
