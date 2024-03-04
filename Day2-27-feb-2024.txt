@@ -9,4 +9,6 @@ SELECT distinct country FROM customers
 from a country
 SELECT count(*) as cntcustomer FROM customers where country = 'Germany'
 
+https://github.com/microsoft/powerbi-desktop-samples
+
 

@@ -1,0 +1,15 @@
+Post assement
+
+1. create a powerbi dashboard and name it is trainingcenter
+2. Display following information
+
+a. Total Collections - card
+b. Total Expenditure - card
+c. Bargraph of class vs collection
+d. Bargraph of teacher vs collection
+e. Month ,total collection,total expenditure, profit (table)
+f. classwise collection - pie chart
+
+Filters - Year, Teacher,Class
+
+

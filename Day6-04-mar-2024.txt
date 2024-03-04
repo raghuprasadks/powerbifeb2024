@@ -1,0 +1,21 @@
+1. Python script/R- Script
+Python - Data Analytics
+pandas,numpy,maptplotlib
+
+download python
+install libraries required for data analytics
+cloud environment
+google colab
+
+3. Power BI Service/Refresh 
+3. Revision
+4. Post Assessment -  
+
+
+import pandas as pd
+topeconomies={
+    "country":["usa","china","germany","japan","india"],
+    "gdp":[27,18,4.6,4.2,4.1],
+    "rank":[1,2,3,4,5]
+}
+gdpdf=pd.DataFrame(topeconomies)

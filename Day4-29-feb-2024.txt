@@ -1,0 +1,33 @@
+Data Analysis Expressions (DAX)
+language
+
+power queries
+
+Line	Subclass	Duration	CPU	Par.	Rows	KB	Timeline	Query
+2	Scan	1	0		57	1		
+
+SELECT 'Product'[List Price] FROM 'Product' WHERE  ( COALESCE ( ( CAST ( PFCAST ( 'Product'[List Price] AS INT ) AS REAL ) / 10000.000000 ) ) > COALESCE ( 150.000000 ) ) ;   Estimated size: rows = 57  bytes = 228
+
+
+SELECT name,sum(product.price*orderdetails.quantity) FROM orderdetails,products
+where orderdetails.productid=products.id
+group by name
+
+
+Mini project
+
+eCommerce Data Analysis
+
+Category wise sales
+category wise sales
+Supplier wise sales
+
+Top 5 customers in terms of sales
+Top 5 countries in terms of sales
+Graph on map
+Filter on Country , product,year
+
+ 
+
+
+

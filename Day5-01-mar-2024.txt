@@ -1,0 +1,15 @@
+Financial data analysis
+
+✅Total_Sales = CALCULATE(sum(Orders[Sales]))
+✅Current MTD = CALCULATE(TOTALMTD([Total_Sales],DATESMTD(Orders[Order Date])))
+✅Current QTD = CALCULATE(TOTALQTD([Total_Sales],DATESQTD(Orders[Order Date])))
+✅Current YTD = CALCULATE(TOTALYTD([Total_Sales],DATESYTD(Orders[Order Date])))
+✅Previous Month Total Sales = CALCULATE([Total_Sales],PREVIOUSMONTH(DATESMTD(Orders[Order Date])))
+✅Previous Quarter Total Sales = CALCULATE([Total_Sales],PREVIOUSQUARTER(DATESQTD(Orders[Order Date])))
+✅Previous Year Total Sales = ✅CALCULATE([Total_Sales],PREVIOUSYEAR(DATESYTD(Orders[Order Date])))
+✅Previous MTD = ([Previous Month Total Sales] + [Current MTD])
+✅Previous QTD = ([Previous Quarter Total Sales]+[Current QTD])
+✅Previous YTD = ([Previous Year Total Sales]+[Current YTD])
+✅SPLY MTD = CALCULATE([Current MTD],SAMEPERIODLASTYEAR(Orders[Order Date]))
+✅SPLY QTD = CALCULATE([Current QTD],SAMEPERIODLASTYEAR(Orders[Order Date]))
+✅SPLY YTD = CALCULATE([Current YTD],SAMEPERIODLASTYEAR(Orders[Order Date]))

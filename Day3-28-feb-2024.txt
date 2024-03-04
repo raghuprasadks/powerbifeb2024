@@ -1,0 +1,27 @@
+Agenda:
+1. Webscraping
+https://www.vijaysales.com/
+2. WebAPI
+https://gorest.co.in/public/v2/users
+
+https://jsonplaceholder.typicode.com/users
+https://gorest.co.in/
+3d791b56430b5baefba8d3a56ade1e462922708527503ccde2aa5d9f1998526f
+
+384db1ce93218e20fd384d3016372238
+
+https://api.openweathermap.org/data/2.5/weather?q=bangalore&appid=384db1ce93218e20fd384d3016372238
+
+power bi download desktop
+https://www.microsoft.com/en-us/download/details.aspx?id=58494
+
+https://data.covid19india.org/v4/min/timeseries.min.json
+
+
+https://covidtracking.com/about-data/data-summary/#national-testing-and-outcomes-data
+
+
+
+
+3. Data Modelling
+4. Sample project
